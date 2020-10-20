@@ -53,6 +53,39 @@
         font-variant-ligatures: discretionary-ligatures;    
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, calc((100% - 4rem) / 4));
+        grid-auto-rows: fit-content(0.5rem);
+        padding: 0 1rem;
+        gap: 0.5rem 1rem;
+        max-width: 100vw;
+    }
+
+    .grid > * {
+        grid-row-end: auto;
+    }
+
+    @media screen and (min-width: 768px) {
+        .grid {
+            grid-template-columns: repeat(8, calc((100% - 12rem) / 8));
+            gap: 0.5rem 1.5rem;
+        }
+    }
+
+    @media screen and (min-width: 1400px) {
+        .grid {
+            grid-template-columns: repeat(12, calc((100% - 18rem) / 12));
+            padding: 0;
+        }
+    }
+
+    @media screen and (min-width: 2600px) {
+        .grid {
+            grid-template-columns: repeat(16, calc((100% - 24rem) / 16));
+        }
+    }
+
     h1, h2, h3 {
         font-family: var(--font-sans);
         font-weight: bold;
