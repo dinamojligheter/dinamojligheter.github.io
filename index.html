@@ -6,7 +6,7 @@ layout: default
 {% for service in site.categories.services limit:5  %}
 <article class="dm_service">
     <h2>{{ service.title }}</h2>
-    <p>{{ service.excerpt }}</p>
+    <p>{{ service.excerpt | strip }}</p>
     <a class="read-more" href="{{ service.url }}" title="">Läs mer →</a>
 </article>
 {% endfor %}
