@@ -1,0 +1,12 @@
+footer {
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-flow: row;
+
+        li {
+            margin: 1rem;
+        }
+    }
+}
