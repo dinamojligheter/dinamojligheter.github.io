@@ -1,0 +1,81 @@
+<style>
+
+    @font-face {
+        font-family: "Moderat";
+        src: url("/assets/fonts/Moderat-Regular.woff2") format("woff2");
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: "Moderat";
+        src: url("/assets/fonts/Moderat-Bold.woff2") format("woff2");
+        font-weight: bold;
+    }
+
+    :root {
+        --font-default: clamp(18px, 1.4vw, 22px);
+        --font-s: 0.87rem;
+        --font-l: 1.4rem;
+        --font-line-height: 1.5;
+        --spacing-s: 0.2rem;
+        --spacing-m: 1rem;
+        --spacing-l: 2rem;
+        --spacing-xl: 4rem;
+        --spacing-max-width: 35rem;
+
+        --pale-yellow: hsl(60, 22%, 92%);
+        --terracotta: hsl(27, 56%, 40%);
+        --denim: hsl(205, 100%, 25%);
+        --grey: hsl(0, 2%, 40%);
+        --dark: hsl(0, 0%, 0%);
+        
+        --color-base: var(--dark);
+        --color-bg: var(--pale-yellow);
+
+        --padding-page-bottom: 10vh;
+        
+        --z-index-menu: 90;
+        --z-index-nav-button: 100;
+
+        --font-sans: "Moderat",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol", sans-serif;
+        --font-serif: serif;
+    }
+
+    body {
+        background: var(--color-bg);
+        min-height: 100vh;
+        margin: 0;
+        padding: 0 0 var(--padding-page-bottom) 0;
+        color: var(--color-base);
+        font-family: var(--font-serif);
+        line-height: var(--line-height);
+        font-size: var(--font-default);
+        font-kerning: normal;
+        font-variant-ligatures: discretionary-ligatures;    
+    }
+
+    h1, h2, h3 {
+        font-family: var(--font-sans);
+        font-weight: bold;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        font-family: var(--font-serif);
+        font-style: italic;
+    }
+
+    h1 {
+        color: var(--dark);
+        font-size: var(--font-l);
+    }
+
+    h2 {
+        color: var(--terracotta);
+        font-size: var(--font-default);
+    }
+
+    nav {
+        font-family: var(--font-sans);
+        color: var(--denim);
+    }
+</style>
