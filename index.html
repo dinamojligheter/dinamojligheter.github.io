@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>Våra tjänster</h1>
+
+{% for post in site.categories.post limit:5  %}
+<article class="dm_service">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.excerpt }}</p>
+    <a class="read-more" href="{{ post.url }}" title="">Läs mer →</a>
+</article>
+{% endfor %}
+            
