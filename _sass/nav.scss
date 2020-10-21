@@ -1,4 +1,10 @@
 nav {
+  
+  @media (min-width: $screen-m) {
+    width: 50%;
+    width: calc(50% - 0.75rem);
+  }
+  
   ul {
     list-style: none;
     display: flex;
