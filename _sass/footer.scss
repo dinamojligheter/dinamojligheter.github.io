@@ -4,6 +4,10 @@ footer {
         padding: 0;
         display: flex;
         flex-flow: column;
+        
+        @media (min-width: $screen-m) {
+            flex-flow: row wrap;
+        }
 
         li {
             margin: 1rem;
