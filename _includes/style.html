@@ -90,11 +90,27 @@
         font-family: var(--font-sans);
         font-weight: bold;
     }
+    
+    p {
+        margin: 1rem auto 0;
+    }
 
     header h1 {
         font-size: clamp(3rem, 10vw, 4rem);
         font-family: var(--font-serif);
         font-style: italic;
+    }
+    
+    a,
+    a:visited {
+        color: var(--denim);
+        transition: color 0.25s ease;
+    }
+    
+    a:hover,
+    a:focus,
+    a:visited {
+        color: var(--terracotta);   
     }
     
     header,
