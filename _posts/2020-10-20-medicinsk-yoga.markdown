@@ -18,12 +18,12 @@ Vid stress så påverkas sympatiska Nervsystemet – Höjd puls, höjt blodtryck
 Medicinsk Yoga bygger på forskning som bedrivs inom den svenska sjukvården. Det finns många studier som visar på goda resultat när det gäller t ex ryggproblem, migrän, blodtryckssänkning, sömnproblem och stresshantering.
 
 ### Medicinsk Yoga på din arbetsplats bidrar till
-• Ökad uthållighet
-• Ökad energi
+* Ökad uthållighet
+* Ökad energi
 • Bevarad eller ökad trivsel och hälsa
-• Produktionsökning
-• Friskare personal 
-• Ökad koncentration och fokus på arbetsuppgifterna – mental närvaro
-• Ökad rörlighet i nacke, axlar (minskad stelhet/smärta)
-• Minskad stress, irritation
-• En kravlös teambuilding
+* Produktionsökning
+* Friskare personal
+* Ökad koncentration och fokus på arbetsuppgifterna – mental närvaro
+* Ökad rörlighet i nacke, axlar (minskad stelhet/smärta)
+* Minskad stress, irritation
+* En kravlös teambuilding
