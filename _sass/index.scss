@@ -1,5 +1,15 @@
 .dm_service {
   margin: 2rem auto;
+  
+  @media (min-width: $screen-m) {
+    width: 48%;
+    width: calc(50% -1rem);
+    display: inline-block;
+    
+    &:nth-child(even) {
+      margin-right: 1rem;
+    }
+  }
 
   p {
     margin-bottom: 0.5rem;
