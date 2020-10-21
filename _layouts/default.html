@@ -7,10 +7,10 @@
   </head>
   <body class="grid">
     {% include header.html %}
+    {% include nav.html %} 
     <main id="swup" class="transition-fade">    
         {{ content }}
     </main>
-    {% include nav.html %}    
     {% include footer.html %}
     <script src="{{ "./assets/js/swup.js" | relative_url }}"></script> 
     <script src="{{ "./assets/js/index.js" | relative_url }}"></script>
