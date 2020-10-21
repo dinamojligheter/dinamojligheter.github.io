@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Medicinsk Yoga"
+title:  "Regndroppsmassage."
 date:   2020-10-20 20:36:47 +0100
 categories: services
 ---
