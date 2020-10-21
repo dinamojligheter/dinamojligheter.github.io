@@ -3,11 +3,12 @@
   
   @media (min-width: $screen-m) {
     width: 48%;
-    width: calc(50% -1rem);
+    width: calc(50% - 0.9rem);
     display: inline-block;
+    vertical-align: top;
     
     &:nth-child(even) {
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
   }
 
