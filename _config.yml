@@ -6,7 +6,7 @@ title: "Dina Möjligheter" # the name of your site, e.g. ACME Corp.
 # in the templates via {{ site.myvariable }}.
 
 
-email: monica.lindstrom@dinamojligheter.com
+email: info@dinamojligheter.com
 excerpt_separator: <!--more-->
 description: >- # this means to ignore newlines until "baseurl:"
   Tillsammans skapar vi en friskare arbetsplats.
